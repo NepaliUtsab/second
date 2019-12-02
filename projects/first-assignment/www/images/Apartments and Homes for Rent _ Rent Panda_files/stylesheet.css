@@ -1,0 +1,307 @@
+
+
+html, body{
+	font-family: sans-serif;
+	height: 100%;
+}
+
+
+
+body{
+	
+	background-color: #f8f8f8;
+	font-size: 14px;
+}
+
+h1{
+	display: block;
+
+}
+
+hr{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+label{
+	display: inline-block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+a, a:focus, a:active{
+  	color: #8dc541;
+  	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.grey_border{
+	border: 1px solid #a7a2a2;
+}
+
+.black_border{
+	border: 1px solid black;
+}
+
+/*Top navigation styles*/
+.header{
+	background-color: white;
+	color: black;
+	width: 63%;
+	height: 9%;
+}
+
+#topNav{
+	font-family: inherit;
+	background-color: white;
+	display: flex;
+	width: 92%;
+	padding: 10px 65px;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	z-index: 9999;
+}
+
+.nav_bar{
+	overflow: hidden;
+	width: 50%;
+	height: 40px;
+	margin: 10px;
+}
+
+.logo{
+	width: 50%;
+	padding-top: 5px;
+}
+
+.nav_bar a{
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 10px 28px;
+	text-decoration: none;
+	font-size: 14px;
+	border-right: 1px solid grey;
+}
+
+
+.nav_bar a:hover, a:focus, a:active{
+	color: #8dc541;
+	text-decoration: none;
+}
+
+a.active_page{
+ 	color: #8dc541; 
+}
+
+
+/* Main Content Styles*/
+.content{
+	min-height: 80%;
+	height: auto;
+	width: inherit;
+	padding-left: 65px;
+	padding-top: 8%;
+}
+
+.form_register{
+	display: block;
+	width: 63%;
+}
+
+.form_input{
+	display: block;
+	width: 98%;
+	height: 35px;
+	font-size: 14px;
+	padding-left: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.form_title{
+	width: 52%;
+
+}
+
+.form_element{
+	display: block;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+.customButton{
+	color: #fff;
+    background-color: #8dc541;
+    border-color: #8dc541;
+    border-radius: 16px;
+    font-size: 14px;
+    padding: 7px 10px;
+}
+
+.footer_class{
+	display: inline-block;
+	width: 90%;
+	height: auto;
+	border: 0;
+	margin-top: 40px;
+	font-size: 14px;
+	padding: 10px 65px;
+}
+
+li a{
+	float: right;
+	color: black;
+	padding-right: 28px;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+ul li{
+	display: inline;
+}
+
+.wrap{
+	text-align: center;
+	margin-bottom: 10px;
+	background-color: yellow;
+}
+.social_icon{
+	border-radius: 25px;
+	padding: 5px;
+	margin-top: 15px;
+	float: right;
+	background-color: #8dc541;
+}
+
+.copy{
+	color: #a7a2a2;
+	font-size: 12px;
+	padding-top: 8px;
+}
+
+.footer_nav{
+	float: right;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.img_back{
+	width: 100%;
+    height: auto;
+    top: 11%;
+    position: relative;
+}
+
+.img_back img{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border: 0;
+}
+
+.form_image img{
+	width: auto;
+	padding: 8px 10px 10px 12px;
+	vertical-align: middle;
+	border: 0;			   
+}
+
+.img_back h1{
+	font-size: 63px;
+	font-weight: 700;
+	top: 5%;
+	left: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+}
+
+.img_back h2{
+	font-size: 26px;
+	top: 26%;
+	font-weight: 300;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+}
+
+.search_bar{
+	width: 85%;
+	display: inline-flex;
+    position: absolute;
+    top: 43%;
+    left: 7%;
+    background-color: rgba(255,255,255,.69);
+    border-radius: 5px;
+    margin-top: 8%;
+    padding: 15px 0px;
+}
+
+.search_bar_element{
+	width: 30%;
+    padding-left: 15px;
+}
+
+.search_bar_element label{
+	height: 100%;
+    text-align: center;
+    padding: 15px 15px 14px 15px;
+    border: 1px solid #a7a2a2;
+    border-right: none;
+}
+
+.form_image{
+	display: inline-block;
+    width: 55px;
+    height: 60%;
+    position: absolute;
+    border-right: 1px solid #a7a2a2;
+
+}
+
+.input_con{
+    border-radius: 25px;
+    padding: 5px 5px 5px 60px;
+    background-color: white;
+}
+
+
+
+.icon-beds{
+    background-color: #fff;
+    display: inline-block;
+    float: left;
+    border: 1px solid #a7a2a2;
+    border-right: 0;
+    border-radius: 22px 0 0 22px;
+    padding: 6px 10px 9px 15px;
+}
+
+.active_button{
+	border-right: 1px solid grey; 
+	border-radius: 0 22px 22px 0;
+	background-color: #8dc541;
+	color: white;
+    padding: 15px 15px 14px 15px;
+
+}
+
+
+.search_bar .form_input{
+	border: none;
+    background: none;
+}
+
+
+
+
+
+

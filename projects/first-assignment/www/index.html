@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<link rel="shortcut icon" href="images/favicon.png">
+	<title>Apartments and Homes for Rent | Rent Panda</title>
+
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
+</head>
+
+
+<body>
+	<!-- This is top fixed navigation bar -->
+	<div class="header" id="topNav">
+		<div class="header_info"><p>This website is a copy of <a href="https://rentpanda.ca/">Rent panda's website</a> made for education purpose only</p></div>
+		<div class="logo"><a href="index.html"><img src="images/rent-panda-logo.jpg"></a></div>
+		<div class = "nav_bar">
+			<a href="Log_In_Page.html" style="border: 0px white">Log In</a>
+			<a href="landlord_signup.html">LandLord Sign Up</a>
+			<a href="tenant_signup.html">Tenant Sign Up</a>
+			<a href="Resource_Page.html">Resources</a>
+		</div>
+
+	</div>
+
+	<!-- This container contains main content -->
+	<div class="img_back">
+			<img src="images/rent-panda-home middle.jpg">
+			<h1>Rent Better</h1>
+			<h2>Your home for apartment rentals</h2>
+
+			<!-- search bar -->
+			<form class="search_bar" action="action.php" method="POST">
+					<div class="search_bar_element">
+						<div class="form_image">
+							<img src="images/icon-city.png">
+						</div>
+						<div class="input_con grey_border">
+							<select name="city" class="form_input">
+								<option value="guelph">Guelph</option>
+					    		<option value="thunder_bay">Thunder Bay</option>
+					    	</select>
+						</div>
+					</div>
+
+					<div class="search_bar_element">
+						<div class="icon-beds">
+							<img src="images/icon-bed.png">
+						</div>
+						<div id="search_bar_labels">
+							<label>Room</label>
+							<label>1</label>
+							<label>2</label>
+							<label>3+</label>
+							<label class="active_button" >Any</label>
+						</div>
+					</div>
+
+					<section class="range-slider">
+					  <span class="rangeValues" style="float: left;">$0</span>
+					  <span class="rangeValues" style="float: right;">$5000</span>
+					  <input value="0" min="0" max="5000" step="2" type="range">
+					  <input value="5000" min="0" max="5000" step="2" type="range">
+					</section>
+					
+					<button class="customButton" 
+							type="button" 
+							onclick="alert('This is a test website for educational purpose')">
+							SEARCH <img src="images/search_icon.png" style="top: 12%; left: 93%; position: absolute; width: 50px; height: 50px;">
+					</button>
+					
+			</form>
+	</div>
+	<div class = "content" style="padding-right: 85px; padding-top: 7%;">
+		<h2>Featured Rentals in Thunder Bay</h2>
+
+		<div class="row">
+
+			<div class="apartment-item" onclick="myFunction();">
+				<img src="images/home_rental1.jpg">
+				<div class="details">
+					<h3>Kingsway</h3>
+					<h4>House</h4>
+					<p>Available January 1st, 2020, this Southside home is sweet and safe, 2 bedroom and 1 bathroom with...</p>
+					
+					<div class="column">
+						<div class="ind_img">
+							<img src="images/icon-bed.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>3+ bedrooms</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-bath.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>1 bath</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-rent.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>$2100</b></p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="apartment-item" onclick="myFunction();">
+				<img src="images/home_rental1.jpg">
+				<div class="details">
+					<h3>Kingsway</h3>
+					<h4>House</h4>
+					<p>Available January 1st, 2020, this Southside home is sweet and safe, 2 bedroom and 1 bathroom with...</p>
+					
+					<div class="column">
+						<div class="ind_img">
+							<img src="images/icon-bed.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>3+ bedrooms</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-bath.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>1 bath</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-rent.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>$2100</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="apartment-item" style="margin-right: -1px;" onclick="myFunction();">
+				<img src="images/home_rental1.jpg">
+				<div class="details">
+					<h3>Kingsway</h3>
+					<h4>House</h4>
+					<p>Available January 1st, 2020, this Southside home is sweet and safe, 2 bedroom and 1 bathroom with...</p>
+					
+					<div class="column">
+						<div class="ind_img">
+							<img src="images/icon-bed.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>3+ bedrooms</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-bath.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>1 bath</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-rent.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>$2100</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="apartment-item" onclick="myFunction();">
+				<img src="images/home_rental1.jpg">
+				<div class="details">
+					<h3>Kingsway</h3>
+					<h4>House</h4>
+					<p>Available January 1st, 2020, this Southside home is sweet and safe, 2 bedroom and 1 bathroom with...</p>
+					
+					<div class="column">
+						<div class="ind_img">
+							<img src="images/icon-bed.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>3+ bedrooms</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-bath.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>1 bath</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-rent.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>$2100</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="apartment-item" onclick="myFunction();">
+				<img src="images/home_rental1.jpg">
+				<div class="details">
+					<h3>Kingsway</h3>
+					<h4>House</h4>
+					<p>Available January 1st, 2020, this Southside home is sweet and safe, 2 bedroom and 1 bathroom with...</p>
+					
+					<div class="column">
+						<div class="ind_img">
+							<img src="images/icon-bed.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>3+ bedrooms</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-bath.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>1 bath</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-rent.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>$2100</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="apartment-item" style="margin-right: -1px;" onclick="myFunction();">
+				<img src="images/home_rental1.jpg">
+				<div class="details">
+					<h3>Kingsway</h3>
+					<h4>House</h4>
+					<p>Available January 1st, 2020, this Southside home is sweet and safe, 2 bedroom and 1 bathroom with...</p>
+					
+					<div class="column">
+						<div class="ind_img">
+							<img src="images/icon-bed.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>3+ bedrooms</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-bath.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>1 bath</b></p>
+						</div>
+						<div class="ind_img">
+							<img src="images/icon-rent.png" style="height: 30px; width: 35px;">
+							<p style="margin: 0px; font-size: 12px;"><b>$2100</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function myFunction() {
+  			window.open("Apartment_Detail_Page.html");
+			}
+		</script>
+
+		<div style="display: inline-flex;">
+			<h3 style="margin-right: 40px;">Quick Search:</h3>
+			<p class="highlited-texts">1 bedroom apartment</p>
+			<p class="highlited-texts">2 bedroom apartment</p>
+			<p class="highlited-texts">3 bedroom apartment</p>
+		</div>
+		
+	</div>
+
+
+	<!-- This is static footer for all pages -->
+	<footer class="footer_class">
+		<div class="wrap">
+			<div class="social_icon">
+				<a href="#facebook"><img src="images/icon-facebook.png" alt="Like on Facebook" style="vertical-align: middle; "></a>
+			</div>
+		</div>
+
+		<div class="footer_nav">
+			<ul style="list-style: none;">
+				<li><a href="#">Terms & Conditions</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">How it Works</a></li>
+				<li><a href="#">Tenant Insurance</a></li>
+			</ul>
+		</div>
+		<div class="copy">
+			<p>Developer :Utsab Malakar</p><br>
+			<p>Developer :Mashhood</p>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="images/favicon.png">
+	<title>Sign Up - Apartment and Homes</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
+	
+</head>
+<body>
+	<!-- This is top fixed navigation bar -->
+	<div class="header" id="topNav">
+		<div class="header_info"><p>This website is a copy of <a href="https://rentpanda.ca/">Rent panda's website</a> made for education purpose only</p></div>
+		<div class="logo"><a href="index.html"><img src="images/rent-panda-logo.jpg"></a></div>
+		<div class = "nav_bar">
+			<a href="Log_In_Page.html" style="border: 0px white">Log In</a>
+			<a href="landlord_signup.html">LandLorSign Up</a>
+			<a class="active_page" href="tenant_signup.html">Tenant Sign Up</a>
+			<a href="Resource_Page.html">Resources</a>
+		</div>
+
+	</div>
+
+	<!-- This container contains main content -->
+	<div class = "content">
+		<div class="form_title">
+			<h1>Sign Up</h1>
+			<p>Signing up is free! Want to know more? See <a href="/how-it-works">how it works</a> for more details</p>
+			<hr>
+		</div>
+
+		<div class="form_div">
+			<form class="form_register" method="POST">
+				<div class="form_element">
+					<label>First Name</label>
+					<input type="text" class="form_input" name="first_name" maxlength="50">
+				</div>
+				<div class="form_element">
+					<label>Last Name</label>
+					<input type="text" class="form_input" name="last_name" maxlength="50">
+				</div >
+				<div class="form_element">
+					<label>Email</label>
+					<input type="email" class="form_input" name="email" maxlength="50">
+				</div>
+				<div class="form_element">
+					<label>Phone Number</label>
+					<input type="number" class="form_input" name="phone_number" maxlength="50">
+				</div>
+				<div class="form_element">
+					<label>Where do you want to rent a home?</label>
+					<select name="place_to_rent" class="form_input" tabindex="-1" style="height: 40px; width: 100%">
+					    <option value="guelph">Guelph</option>
+					    <option value="thunder_bay">Thunder Bay</option>
+					  </select>
+				</div>
+				<div class="form_element">
+					<label>Password</label>
+					<input type="password" class="form_input" name="password" maxlength="50">
+				</div>
+				<div class="form_element">
+					<label style="margin-bottom: 15px;">Legal Stuff</label><br>
+					<input type="checkbox" name="agree-terms" maxlength="50">
+					<label style=" margin-left: 5px; margin-bottom: 15px; font-weight: normal;">I understand and agree to the <a href="#terms">Terms & Conditions</a></label>
+				</div>
+
+				<div class="form_element">
+					<label>Confirm Email</label>
+					<input type="email" class="form_input" name="confirm_email" maxlength="50">
+				</div>
+
+				<div class="form_element">
+					<label>Confirm Password</label>
+					<input type="password" class="form_input" name="confirm_password" maxlength="50">
+				</div>
+
+				<div class="form_element">
+					<label>How did you hear about Rent Panda?</label>
+					<select name="place_to_rent" class="form_input" tabindex="-1" style="height: 40px; width: 100%">
+						<option value="none"> </option>
+					    <option value="google">Google</option>
+					    <option value="facebook">Facebook</option>
+					    <option value="lawn_sign">Lawn Sign</option>
+					    <option value="print">Print Ad</option>
+					    <option value="mouth">Word of Mouth</option>
+					    <option value="other">Other</option>
+					  </select>
+				</div>
+
+				<div class="form_element">
+					<button class="customButton" type="button" onclick="alert('This is a test website for educational purpose')">Register</button>
+				</div>
+
+
+
+				
+			</form>
+		</div>
+	</div>
+
+
+	<!-- This is static footer for all pages -->
+	<footer class="footer_class">
+		<div class="wrap">
+			<div class="social_icon">
+				<a href="#facebook"><img src="images/icon-facebook.png" alt="Like on Facebook" style="vertical-align: middle; "></a>
+			</div>
+		</div>
+
+		<div class="footer_nav">
+			<ul style="list-style: none;">
+				<li><a href="#">Terms & Conditions</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">How it Works</a></li>
+				<li><a href="#">Tenant Insurance</a></li>
+			</ul>
+		</div>
+		<div class="copy">
+			<p>Developer :Utsab Malakar</p><br>
+			<p>Developer :Mashhood</p>
+		</div>
+	</footer>
+
+</body>
+</html>
