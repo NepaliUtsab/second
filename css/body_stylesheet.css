@@ -18,17 +18,11 @@
 
   .portfolio-item .img{
     min-width: 100%;
-    height: 450px;
-    -webkit-transition: -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
+    height: 300px;
   }
 
   .row .portfolio-item .caption{
     background-color: #5aa998ab;
-    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
   }
 
   .portfolio-item .caption .caption-content{
@@ -138,6 +132,7 @@
     display: flex;
     height: 100%;
     width: 100%;
+    background-color: #5aa998ab;
     color: #fff;
     position: absolute;
     top: 0;
