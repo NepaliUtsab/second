@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Answer a survey</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+
+	<div class="margin_division"></div>
+	<div id="main_container">
+		<h1 style="text-align: center; border: 1px solid gray">Answer a survey</h1>
+		<form method="POST" action="https://www.w3schools.com/action_page.php">
+			<br><br>
+			What is your full name?<br>
+			<input type="text" name="display-name">
+			<br><br>
+
+			Date of birth:<br>
+			<input type="Date" name="dob" max="2019-10-01">
+			<br><br>
+
+			Enter your email address:<br>
+			<input type="email" name="emailId">
+			<br><br>
+
+			Enter your phone number:<br>
+			<input type="tel" name="phone" placeholder="xxx-xxx-xxxx">
+			<br><br>
+			
+
+			<input type="image" src="images/pp_suit.png" style="width: 25px; height: 25px">
+			Choose your profile image:  
+			<input type="file" name="profileImage">
+			<br><br>
+
+			Choose your last completed education:<br>
+			<input type="radio" name="educationLevel" value="high_school">High School<br>
+			<input type="radio" name="educationLevel" value="bachlors">Bachlors Level<br>
+			<input type="radio" name="educationLevel" value="masters">Masters Level<br>
+			<input type="radio" name="educationLevel" value="phd">PHD<br>
+			<br><br>
+
+			When did you complete it?<br>
+			<input type="month" name="educationCompleted">
+			<br><br>
+
+			In which field do you see yourself working in?
+			<br>
+			<input type="checkbox" name="IT" value="IT">Information Technology<br>
+			<input type="checkbox" name="Management" value="Management">Management<br>
+			<input type="checkbox" name="Hospitality" value="Hospitality">Hospitality<br>
+			<input type="checkbox" name="Medical" value="Medical">Medical
+			<br><br>
+
+			How many years of professional experience do you have?<br>
+			<input type="number" name="experience" min="0" max="20" step="1" value="0">
+			<br><br>
+
+			Are you interested in Programming Languages<br>
+			<input type="radio" name="isInterested" value="Yes">Yes 
+			<input type="radio" name="isInterested" value="No">No<br>
+			<br><br>
+
+			Language interested in:<br>
+			<select name="language">
+				<option value="C">C</option>
+				<option value="C++">C++</option>
+				<option value="C#">C#</option>
+				<option value="Java">Java</option>
+			</select>
+			<br><br>
+
+			How do you rate this survey on a scale of 0-10?<br>
+			<input type="range" name="rating" min="1" max="10">
+			<br><br>
+
+			Enter a link to your LinkedIn Profile: 
+			<input type="url" name="LinkedIn">
+			<br><br>
+
+			<fieldset style="text-align: center; border: 0px">
+				<input class="button_forms"  type="reset" value="Reset">
+				<input class="button_forms" type="submit" value="Submit">
+			</fieldset>
+			<br><br>
+		</form>
+	</div>
+</body>
+</html>

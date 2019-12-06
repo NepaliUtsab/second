@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<title>Dynamic Table</title>
+</head>
+
+<body>
+	<table style="width:100%">
+		<thead>
+			<tr>
+				<td>
+					<table class="inner" width="100%">
+					<tr class="inner">
+						<td class="inner"><img class="picture" src="imgs/pp_suit.png" alt="Profile 1"></td>
+					</tr>
+					<tr class="inner">
+						<td class="inner">First Name</td>
+					</tr>
+					</table>
+				</td>
+				<td>
+					<table class="inner">
+					<tr class="inner">
+						<td class="inner"><b>First Name:</b></td>
+						<td class="inner"><input type="text" id="firstName"></b></td>
+					</tr>
+					<tr class="inner">
+						<td class="inner"><b>Middle Name:</b></td>
+						<td class="inner"><input type="text" id="middleName"></b></td>
+					</tr>
+					<tr class="inner">
+						<td class="inner"><b>Last Name:</b></td>
+						<td class="inner"><input type="text" id="lastName"></b></td>
+					</tr>
+					
+					</table>
+				</td>
+
+				<td>/Users/utsab/Desktop/Second/WebDev/Lect7/js/lect.js
+					<table class="inner">
+					<tr class="inner">
+						<td class="inner"><b>Postal Code:</b></td>
+						<td class="inner"><input type="text" id="postalCode"></b></td>
+					</tr>
+					<tr class="inner">
+						<td class="inner"><b>Email:</b></td>
+						<td class="inner"><input type="text" id="email"></td>
+					</tr>
+					<tr class="inner">
+						<td class="inner"><b>Phone:</b></td>
+						<td class="inner"><input type="text" id="phone"></td>
+					</tr>
+					
+					</table>
+				</td>
+
+				<td id="salary">
+					<input type="text" id="salaryAmount">
+					<button onclick="prepareRow()">Click me</button>
+				</td>
+			</tr>
+		</thead>
+		<tbody id="tableBody"></tbody>	
+	</table>
+
+	<script type="text/javascript" src="js/lect.js"></script>
+
+</body>
+</html>
